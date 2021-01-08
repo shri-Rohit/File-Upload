@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FileUploadService } from 'src/app/services/file-upload.service';
 import { FileUpload } from 'src/app/models/file-upload.model';
-
 @Component({
   selector: 'app-upload-form',
   templateUrl: './upload-form.component.html',
